@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ShopEasy - Online Shopping System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>ShopEasy</h1>
+  <div id="userArea"></div>
+</header>
+
+<main>
+<section id="auth">
+  <div class="card">
+    <h2>Login</h2>
+    <input id="loginEmail" placeholder="Email">
+    <input id="loginPassword" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+  <div class="card">
+    <h2>Register</h2>
+    <input id="regName" placeholder="Name">
+    <input id="regEmail" placeholder="Email">
+    <input id="regPassword" type="password" placeholder="Password">
+    <button onclick="register()">Create account</button>
+  </div>
+</section>
+
+<section id="shop" class="hidden">
+  <h2>Categories</h2>
+  <div id="categories" class="chips"></div>
+  <h2>Products</h2>
+  <div id="products" class="grid"></div>
+  <h2>Cart</h2>
+  <div id="cart"></div>
+  <button onclick="checkout()">Checkout</button>
+  <h2>My Orders</h2>
+  <div id="orders"></div>
+</section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+# VS Code
+.vscode/
+**/.vscode/
+
+# Java compiled files
+*.class
+
+# Java output folders
+**/out/
+**/bin/
+
+# Flutter generated files
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+
+# Android generated files
+**/.gradle/
+**/local.properties
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Windows shortcut files
+*.lnk
+
+# OS files
+.DS_Store
+Thumbs.db
