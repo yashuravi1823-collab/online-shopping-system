@@ -49,3 +49,4 @@ Do not enter real card/UPI information.
 
 Default backend:
 http://localhost:8080
+This project is developed as part of my BCA learning journey.
