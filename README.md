@@ -50,3 +50,6 @@ Do not enter real card/UPI information.
 Default backend:
 http://localhost:8080
 This project is developed as part of my BCA learning journey.
+Netlify frontend deployment setup.git add README.md
+git commit -m "Update README for Netlify"
+git push
